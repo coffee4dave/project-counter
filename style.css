@@ -1,0 +1,48 @@
+:root {
+    --bgcolor: #455F87;
+    --bgcolor2: #E9EEF2;
+    --bgcolor3: #F28705;
+    --textcolor: black;
+    --color4: #B36404;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-color: var(--bgcolor);
+}
+
+.btn {
+    font-weight: bold;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.43);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.43);
+}
+
+.text-green {
+    color: green;
+}
+
+.text-red {
+    color: red;
+}
+
+#form-container {
+    background-color: var(--bgcolor2);
+    padding: 2rem 2rem;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.43);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.43);
+}
+
+#counter {
+    font-size: 4rem;
+    min-height: 5rem;
+    display: block;
+}
+
+#footer {
+    font-size: 0.5rem;
+
+}
